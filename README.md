@@ -50,3 +50,4 @@ Luego se construye el texto que se almacenara en el archivo.txt incluyendo las c
  
 [Evidencia de funcionamiento](./Evidencia_gps_foto.mp4)
 
+El apk se encuentra en la carpeta **"APK FUNCIONAL"** en la raiz del proyecto
