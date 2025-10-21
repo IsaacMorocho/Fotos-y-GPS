@@ -48,5 +48,5 @@ Luego se construye el texto que se almacenara en el archivo.txt incluyendo las c
 
 ## Resultado
  
-[video](./Evidencia gps.mp4)
+[video](./Evidencia_gps_foto.mp4)
 
