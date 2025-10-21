@@ -47,4 +47,6 @@ Luego se construye el texto que se almacenara en el archivo.txt incluyendo las c
 <img width="349" height="138" alt="image" src="https://github.com/user-attachments/assets/ac5203d4-1c30-4b9f-a566-1961558a709e" />
 
 ## Resultado
+ 
+[video](./Evidencia gps.mp4)
 
