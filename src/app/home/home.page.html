@@ -1,6 +1,6 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>Mi Ubicación GPS (Standalone)</ion-title>
+    <ion-title>Mi Ubicación GPS</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -12,6 +12,11 @@
     <ion-card-content>
       <p><strong>Latitud:</strong> {{ latitude() }}</p>
       <p><strong>Longitud:</strong> {{ longitude() }}</p>
+
+      <div *ngIf="mapLink()">
+        <strong>Ver en Google Maps:</strong><br />
+        <a [href]="mapLink()" target="_blank">{{ mapLink() }}</a>
+      </div>
     </ion-card-content>
   </ion-card>
 
@@ -28,4 +33,26 @@
   <ion-button expand="block" color="medium" (click)="detenerSeguimiento()" [disabled]="watchId === null">
     Detener seguimiento
   </ion-button>
+
+  <ion-button expand="block" color="tertiary" (click)="takePhotoAndSave()">
+    Tomar foto y guardar ubicación
+  </ion-button>
+
+  <ion-card *ngIf="photo()">
+    <ion-card-header>
+      <ion-card-title>Foto capturada</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-img [src]="photo()"></ion-img>
+      <p class="ion-margin-top">
+        <strong>Coordenadas:</strong><br />
+        Latitud: {{ latitude() }}<br />
+        Longitud: {{ longitude() }}
+      </p>
+      <p *ngIf="mapLink()">
+        <strong>Ver en Google Maps:</strong><br />
+        <a [href]="mapLink()" target="_blank">{{ mapLink() }}</a>
+      </p>
+    </ion-card-content>
+  </ion-card>
 </ion-content>
