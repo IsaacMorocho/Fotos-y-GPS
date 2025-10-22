@@ -46,6 +46,11 @@ Luego se construye el texto que se almacenara en el archivo.txt incluyendo las c
 
 <img width="349" height="138" alt="image" src="https://github.com/user-attachments/assets/ac5203d4-1c30-4b9f-a566-1961558a709e" />
 
+Se muestra la evidencia del .txt generado y guardado en el almacenamiento interno del dispositivo:
+
+<img width="250" height="632" alt="evidenciaMV3" src="https://github.com/user-attachments/assets/01b8c4ea-6143-438b-9b60-b5090bbb9fa9"/>
+<img width="290" height="690" alt="evidenciaMV2" src="https://github.com/user-attachments/assets/3d5ff72e-6313-4ced-a6d0-ffb49b7cf7d9" />
+
 ## Resultado
  
 [Evidencia de funcionamiento](./Evidencia_gps_foto.mp4)
